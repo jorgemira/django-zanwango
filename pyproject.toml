@@ -13,3 +13,8 @@ build-backend = "poetry.core.masonry.api"
 python = ">=3.10,<4.0"
 django = ">=4.2"
 django-ninja = ">=1.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
