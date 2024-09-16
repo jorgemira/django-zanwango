@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "zanwango"
+version = "0.1.0"
+description = ""
+authors = ["JorgeMira <jorge.mira.yague@gmail.com>"]
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
