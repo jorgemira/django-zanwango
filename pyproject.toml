@@ -4,6 +4,26 @@ version = "0.1.0"
 description = ""
 authors = ["JorgeMira <jorge.mira.yague@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/jorgemira/django-zanwango"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 1 - Planning",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Testing",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Django :: 5.1",
+    "Framework :: AsyncIO",
+    "Typing :: Typed",
+]
+packages = [{ include = "zanwango" },]
 
 [build-system]
 requires = ["poetry-core"]
