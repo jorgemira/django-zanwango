@@ -12,7 +12,7 @@ class RetrieveModelMixin(mixins.RetrieveModelMixin):
     def retrieve(
         self: GenericAPIView, request: Request, *args: Any, **kwargs: Any
     ) -> Response:
-        if isinstance(self, GenericReadAPIView):  # noqa: SIM102
+        if isinstance(self, GenericReadAPIView):
             if schema_out := self.get_schema_out():
                 instance = self.get_object()
                 model = schema_out.model_validate(instance)

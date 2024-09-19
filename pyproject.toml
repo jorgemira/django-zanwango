@@ -69,6 +69,7 @@ ignore = [
     "C901",   # too complex
     "E501",   # line too long
     "RUF012", # annotated mutable class attributes
+    "SIM102", # collapse ifs
 ]
 
 [tool.mypy]
