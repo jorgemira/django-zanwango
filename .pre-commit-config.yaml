@@ -22,4 +22,3 @@ repos:
     hooks:
       - id: mypy
         files: ^zanwango/
-        additional_dependencies: ["django-stubs", "pydantic"]
